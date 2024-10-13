@@ -1,0 +1,161 @@
+@media (max-width: 760px){
+
+    .bg-container{
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: 100% 100%;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .header-container{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .main-container{
+        max-height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 10px;
+        padding: 25px 25px 0px 25px;
+    }
+
+    .main-container .mockup-container{
+        margin: 0 auto;
+        width: 290px;       
+    }
+
+    .main-container .mockup-container img{
+        align-self: center;        
+        
+    }
+
+    .main-container .info{
+        width: 100%;
+        padding-top: 0;
+        row-gap: 10px;
+    }
+
+    .main-container .info h1{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .main-container .info p{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .main-container .info a{
+        align-self: center;
+        padding-top: 13px;
+    }
+
+    .main-container .info a button{
+        height: 45px;        
+    }
+
+    .footer-container{
+        height: 10%;
+        padding-top: 0px;
+        margin: 0;
+        display: flex;
+        align-items: center;        
+        justify-content: center;        
+    }
+
+    .footer-container a{
+        font-size: 0.8rem;
+    }
+
+    .footer-container .fab{
+        width: 35px;
+        height: 35px;
+    }
+ 
+}
+
+@media (min-width: 1910px){
+
+    .header-container img{
+        max-width: none;
+        width: 600px;
+    }
+
+    .main-container .info h1{
+        font-size: 3rem;
+    }
+
+    .main-container .info p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 2300px){
+
+    .main-container .info h1{
+        font-size: 6rem;
+    }
+
+    .main-container .info p{
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+
+    .main-container .info a{
+        width: 300px;
+        height: 70px;
+    }
+    
+    .main-container .info a button{
+        width: 100%;
+        height: 70px;
+        border: none;
+        border-radius: 50px;
+        color: hsl(257, 40%, 49%);
+        font-size: 2rem;
+        box-shadow: 1px 1px 15px #000;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 4000px){
+
+    .header-container img{
+        width: 1100px;
+    }
+
+    .main-container .info h1{
+        font-size: 9rem;
+    }
+
+    .main-container .info p{
+        font-size: 3rem;
+        margin-bottom: 80px;
+    }
+
+    .main-container .info a{
+        width: 500px;
+        height: 70px;
+    }
+    
+    .main-container .info a button{
+        width: 100%;
+        height: 100px;
+        border: none;
+        border-radius: 50px;
+        color: hsl(257, 40%, 49%);
+        font-size: 4.5rem;
+        box-shadow: 1px 1px 15px #000;
+        cursor: pointer;
+    }
+
+    .footer-container .fab{
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer-container a{
+        font-size: 3rem;
+    }
+}
